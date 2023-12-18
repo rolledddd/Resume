@@ -1,0 +1,204 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>Profile</title>
+    <!-- Google Font -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+        href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,300;0,400;0,700;0,900;1,300;1,400;1,700&family=Ubuntu:ital,wght@0,300;0,400;0,700;1,300;1,400;1,700&display=swap"
+        rel="stylesheet" />
+
+    <link rel="shortcut icon" href="imgs/favicon.ico" type="image/x-icon">
+    <link rel="icon" href="imgs/favicon.ico" type="image/x-icon">
+
+    <!-- Bootstrap -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-GLhlTQ8iRABdZLl6O3oVMWSktQOp6b7In1Zl3/Jr59b6EGGoI1aFkw7cmDA6j6gD" crossorigin="anonymous" />
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-w76AqPfDkMBDXo30jS1Sgez6pr3x5MlQ1ZAGC+nuZB+EYdgRZgiwxhTBTkF7CXvN"
+        crossorigin="anonymous"></script>
+
+
+
+    <!-- My CSS -->
+    <link rel="stylesheet" href="styles.css" />
+
+    <!-- https://media-public.canva.com/so4tk/MAEHRCso4tk/1/s3.jpg -->
+</head>
+
+<body>
+    <!--******************** Header ************************* -->
+    <header>
+
+        <div class="container-fluid">
+            <nav class="navbar navbar-expand-lg navbar-dark">
+                <a href="" class="navbar-brand">PORTFOLIO</a>
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarToggler"
+                    aria-controls="navbarToggler" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarToggler">
+                    <ul class="navbar-nav ms-auto">
+                        <li class="nav-item">
+                            <a href="" class="nav-link active">Home</a>
+                        </li>
+                        <li class="nav-item">
+                            <a href="Resume.html" class="nav-link">Resume</a>
+                        </li>
+                        <li class="nav-item">
+                            <a href="#contact" class="nav-link">Contact</a>
+                        </li>
+                    </ul>
+                </div>
+            </nav>
+        </div>
+
+
+        <div class="row">
+            <div class="desc col-md-12 col-lg-3">
+                <div class="title">
+                    <h1>Made by Harold</h1>
+                </div>
+                <p>Meet Harold, the fun-loving college student rocking the IT scene! Diving into the world of
+                    Information
+                    Technology. <br><br>Harold is on a mission to unravel digital mysteries. When not cracking codes,
+                    you'll
+                    find
+                    them at the gym, turning workouts into a powerful routine. With a love for tech and a fitness flair,
+                    Harold is making college a blast while navigating the exciting world of IT.
+                </p>
+                <button class="button" type="button" onclick="scrollToTarget()">SEE WHAT I'VE DONE</button>
+            </div>
+        </div>
+
+    </header>
+
+    <!--******************** Article ************************* -->
+    <article class="row" id="about-section">
+        <div class="article col-lg-5">
+            HI, I'M HAROLD.
+            <h1 class="I">I design with Purpose</h1>
+        </div>
+        <div class="desc2 col-lg-4">
+            <p class="paragraph">A dynamic professional with a passion for all things tech. As a 2nd year student who is
+                currently
+                taking a degree in Information Technology, I bring a solid foundation in the world of digital
+                innovation. <br><br>My enthusi for technology goes beyond the classroom, as I actively explore the
+                latest trends, gadgets, and coding languages. With a blend of technical know-how and a
+                proactive mindset, I am ready to contribute my skills and dedication to a forward-thinking
+                team. Let's build the future together!</p>
+            <div class="button"><a a href="Resume.html#row" onclick="scrollToElementOnOtherPage()"
+                    style="outline: none; color: inherit;">VIEW MY RESUME</a>
+            </div>
+        </div>
+    </article>
+
+    <!--******************** Aside ************************* -->
+    <aside>
+        <!-- 
+        <div class=" image-collage">
+                    <h1></h1>
+                    <div class="row firstrow">
+                        <div class="img-con col-6"><img src="imgs/img1.webp"></div>
+                        <div class="img-con col-6"><img src="imgs/img2.webp"></div>
+                        <div class="img-con col-6"><img src="imgs/img3.jpg"></div>
+                        <div class="img-con col-6"><img src="imgs/img4.jpg"></div>
+                    </div>
+                    <div class="row">
+                        <div class="img-con col-6"><img src="imgs/img5.webp"></div>
+                        <div class="img-con col-6"><img src="imgs/img6.webp"></div>
+                        <div class="img-con col-6"><img src="imgs/img7.webp"></div>
+                        <div class="img-con col-6"><img src="imgs/img8.webp"></div>
+                    </div>
+            </div>
+            -->
+
+        <h1 class="textcenter">My Projects</h1>
+
+
+
+
+        <div class="container image-collage">
+            <div class="firstrow row">
+                <div class="imahe io"><img src="imgs/img1.webp" class="img-thumbnail"></div>
+                <div class="imahe io"><img src="imgs/img2.webp" class="img-thumbnail"></div>
+                <div class="imahe io"><img src="imgs/img3.jpg" class="img-thumbnail"></div>
+                <div class="imahe io"><img src="imgs/img4.jpg" class="img-thumbnail"></div>
+            </div>
+            <div class="row">
+                <div class="imahe io"><img src="imgs/img5.webp" class="img-thumbnail"></div>
+                <div class="imahe io"><img src="imgs/img6.webp" class="img-thumbnail"></div>
+                <div class="imahe io"><img src="imgs/img7.webp" class="img-thumbnail"></div>
+                <div class="imahe io"><img src="imgs/img8.webp" class="img-thumbnail"></div>
+            </div>
+        </div>
+
+
+
+    </aside>
+
+    <!--******************** Section ************************* -->
+    <section>
+        <div class="row">
+            <div class="col-lg-4">
+                <h1 class="J">What I Do.</h1>
+            </div>
+            <div class="colix1 col-lg-4">
+                <h2>Photography</h2>
+                <p>As a student, photography isn't just a hobby for me it's a vibrant journey of
+                    capturing moments that tell my unique story. Through the lens, I find a
+                    creative escape, turning ordinary scenes into extraordinary memories.</p>
+                <h2>Reading</h2>
+                <p>Journey that allows me to explore new worlds, perspectives, and ideas.
+                    Turning the pages isn't just about words it's about discovering, learning, and
+                    immersing myself in different narratives. Each book is a unique adventure
+                    that enriches my mind and shapes my own story.</p>
+            </div>
+            <div class="colix2 col-lg-4">
+                <h2>Workout</h2>
+                <p>It's more than just breaking a sweat; it's about celebrating victories, tracking
+                    progress, and committing to the continual development of a fitter, more
+                    robust version of myself.</p>
+                <h2>Meditation</h2>
+                <p>In meditation, I embark on a serene journey of self-reflection and balance,
+                    exploring various techniques to cultivate mental clarity and emotional wellbeing. It's not
+                    just a
+                    practice; it's about finding peace and embracing
+                    tranquility within.</p>
+            </div>
+        </div>
+    </section>
+
+    <!--******************** Footer ************************* -->
+    <footer id="contact">
+        <h1 id="K">LET'S TELL VISUAL STORIES</h1>
+        <div class="Box row">
+
+            <div id="white" class="col-lg-6">
+                <span>Contact</span>
+                <p class="text">Email: roldlistanco69@gmail.com<br>
+                    Phone: 123-456-789</p>
+            </div>
+            <div id="black" class="col-lg-6">
+                <span>Follow</span>
+                <p class="text">Instagram: <a href="https://www.instagram.com/rolledddd/">@ROLEDDDD</a></p>
+            </div>
+        </div>
+    </footer>
+
+    <script>
+        function scrollToTarget() {
+            const targetElement = document.getElementById('about-section');
+            targetElement.scrollIntoView();
+        }
+    </script>
+
+</body>
+
+</html>
